@@ -1,1 +1,15 @@
+PODS:
+  - CriolloKitCore (0.0.1)
+  - CriolloKitUmbrella (0.0.1):
+    - CriolloKitUmbrella/Core
+  - CriolloKitUmbrella/Core (0.0.1):
+    - CriolloKitCore
+
+DEPENDENCIES:
+  - CriolloKitUmbrella
+
+SPEC CHECKSUMS:
+  CriolloKitCore: 4538902cd001b5e30caa76eae1e2bd830d0f9025
+  CriolloKitUmbrella: 231f29a089f25fb7de04968ed66aca842d23f908
+
 COCOAPODS: 0.24.0
