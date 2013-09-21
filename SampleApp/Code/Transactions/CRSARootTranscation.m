@@ -7,7 +7,6 @@
 //
 
 #import "CRSARootTranscation.h"
-#import <CRBaseTransactionDispatcher.h>
 #import <CRDIContainer.h>
 
 @interface CRSARootTranscation ()

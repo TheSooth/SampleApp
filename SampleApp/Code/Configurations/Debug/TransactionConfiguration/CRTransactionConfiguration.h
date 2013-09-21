@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CRTransactionHandlers.h>
 
-@interface CRTransactionConfiguration : NSObject <CRTransactionHandlers>
+@interface CRTransactionConfiguration : NSObject
 
 @end

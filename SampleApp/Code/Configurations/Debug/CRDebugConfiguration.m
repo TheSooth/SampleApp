@@ -12,7 +12,6 @@
 #import "CRDIAppearanceConfigurationModule.h"
 #import "CRDIAPSNConfigurationModule.h"
 #import "CRDITransactionConfigurationModule.h"
-#import <CRHandlersTransactionDispatcher.h>
 
 @implementation CRDebugConfiguration
 
@@ -21,8 +20,6 @@
 - (void)setup
 {
     [self setupIOC];
-    
-    [super setup];
 }
 
 - (void)setupIOC
