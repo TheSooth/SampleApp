@@ -1,5 +1,5 @@
 //
-//  CRTransactionConfiguration.h
+//  CRDILaunchConfigurationModule.h
 //  SampleApp
 //
 //  Created by TheSooth on 9/21/13.
@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CRDIConfiguration.h>
 
-@interface CRTransactionConfiguration : NSObject
+@interface CRDILaunchConfigurationModule : CRDIConfiguration
 
 @end

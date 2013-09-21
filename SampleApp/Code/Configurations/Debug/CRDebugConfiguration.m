@@ -11,7 +11,10 @@
 #import <CRDIConfiguration.h>
 #import "CRDIAppearanceConfigurationModule.h"
 #import "CRDIAPSNConfigurationModule.h"
-#import "CRDITransactionConfigurationModule.h"
+#import "CRDILaunchConfigurationModule.h"
+#import <CRTransactionDispatcher.h>
+#import <CRTransactionLogger.h>
+
 
 @implementation CRDebugConfiguration
 
@@ -20,13 +23,25 @@
 - (void)setup
 {
     [self setupIOC];
+    
+    [self setupTransaction];
 }
 
 - (void)setupIOC
 {
     CRDIAppearanceConfigurationModule *appearanceConfigurationModule = [[CRDIAppearanceConfigurationModule alloc] initWithContainer:self.container];
     [appearanceConfigurationModule includeConfigurationWithClass:[CRDIAPSNConfigurationModule class]];
-    [appearanceConfigurationModule includeConfigurationWithClass:[CRDITransactionConfigurationModule class]];
+    [appearanceConfigurationModule includeConfigurationWithClass:[CRDILaunchConfigurationModule class]];
+}
+
+- (void)setupTransaction
+{
+    CRTransactionDispatcher *dispatcher = [CRTransactionDispatcher new];
+    CRTransactionLogger *loggerHandler = [CRTransactionLogger new];
+    
+    [dispatcher addDispatchHandler:loggerHandler];
+    
+    [CRTransactionDispatcher setSharedDispatcher:dispatcher];
 }
 
 @end

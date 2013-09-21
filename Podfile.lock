@@ -1,18 +1,21 @@
 PODS:
-  - CriolloKitCore (0.0.5):
+  - CriolloKitCore (0.0.6):
     - CriolloKitDI
   - CriolloKitDI (0.0.4):
     - ISMethodSwizzling
     - MAObjCRuntime
+  - CriolloKitUmbrella (0.0.1)
   - ISMethodSwizzling (0.0.2)
   - MAObjCRuntime (0.0.1)
 
 DEPENDENCIES:
   - CriolloKitCore
+  - CriolloKitUmbrella
 
 SPEC CHECKSUMS:
-  CriolloKitCore: 40160e7a59016ae1d9044a209a8a32fe74c31305
+  CriolloKitCore: 2c8d549fb6d7e42b2acb8cd20e64aded8abd5283
   CriolloKitDI: fd8a447d00fe73e250af67cd5ac9d0c36aa2a0f9
+  CriolloKitUmbrella: 4ea4ff149e4996a0dbf78095c14f969ad9edb493
   ISMethodSwizzling: 806aafc79dbdafbc482eae3f86b0c632ed8b1f08
   MAObjCRuntime: 284004079156d10cb8237bc3ffcfa3a0e1a0af22
 
