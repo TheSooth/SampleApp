@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CRAppDelegate.h>
 
 #import "CRAppDelegate.h"
 

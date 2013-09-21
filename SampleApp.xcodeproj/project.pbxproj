@@ -18,8 +18,12 @@
 		AD0CCE7817E506DB00792099 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0CCE6017E506DB00792099 /* UIKit.framework */; };
 		AD0CCE8017E506DC00792099 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD0CCE7E17E506DC00792099 /* InfoPlist.strings */; };
 		AD0CCE8217E506DC00792099 /* SampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0CCE8117E506DC00792099 /* SampleAppTests.m */; };
-		AD0CCEC517E518C000792099 /* CRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0CCEC417E518C000792099 /* CRAppDelegate.m */; };
 		B1F7314BCA55458D94762F93 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED656CF1ACE74EEA9B13606B /* libPods.a */; };
+		EA0D366817EDA3340022E216 /* CRDebugConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0D366717EDA3340022E216 /* CRDebugConfiguration.m */; };
+		EA0D366C17EDA3B60022E216 /* CRAppearanceConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0D366B17EDA3B60022E216 /* CRAppearanceConfiguration.m */; };
+		EA0D367017EDA4450022E216 /* CRDIAppearanceConfigurationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0D366F17EDA4450022E216 /* CRDIAppearanceConfigurationModule.m */; };
+		EA0D367317EDA4EC0022E216 /* CRDIAPSNConfigurationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0D367217EDA4EC0022E216 /* CRDIAPSNConfigurationModule.m */; };
+		EA0D367617EDA5680022E216 /* CRAPSNConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0D367517EDA5680022E216 /* CRAPSNConfiguration.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +51,17 @@
 		AD0CCE7D17E506DC00792099 /* SampleAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleAppTests-Info.plist"; sourceTree = "<group>"; };
 		AD0CCE7F17E506DC00792099 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AD0CCE8117E506DC00792099 /* SampleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleAppTests.m; sourceTree = "<group>"; };
-		AD0CCEC317E518C000792099 /* CRAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRAppDelegate.h; sourceTree = "<group>"; };
-		AD0CCEC417E518C000792099 /* CRAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRAppDelegate.m; sourceTree = "<group>"; };
 		C777B3E4E79A4F17ADDE8892 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		EA0D366617EDA3340022E216 /* CRDebugConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRDebugConfiguration.h; sourceTree = "<group>"; };
+		EA0D366717EDA3340022E216 /* CRDebugConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRDebugConfiguration.m; sourceTree = "<group>"; };
+		EA0D366A17EDA3B60022E216 /* CRAppearanceConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRAppearanceConfiguration.h; sourceTree = "<group>"; };
+		EA0D366B17EDA3B60022E216 /* CRAppearanceConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRAppearanceConfiguration.m; sourceTree = "<group>"; };
+		EA0D366E17EDA4450022E216 /* CRDIAppearanceConfigurationModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRDIAppearanceConfigurationModule.h; sourceTree = "<group>"; };
+		EA0D366F17EDA4450022E216 /* CRDIAppearanceConfigurationModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRDIAppearanceConfigurationModule.m; sourceTree = "<group>"; };
+		EA0D367117EDA4EC0022E216 /* CRDIAPSNConfigurationModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRDIAPSNConfigurationModule.h; sourceTree = "<group>"; };
+		EA0D367217EDA4EC0022E216 /* CRDIAPSNConfigurationModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRDIAPSNConfigurationModule.m; sourceTree = "<group>"; };
+		EA0D367417EDA5680022E216 /* CRAPSNConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRAPSNConfiguration.h; sourceTree = "<group>"; };
+		EA0D367517EDA5680022E216 /* CRAPSNConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRAPSNConfiguration.m; sourceTree = "<group>"; };
 		ED656CF1ACE74EEA9B13606B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -152,10 +164,58 @@
 		AD0CCEC217E518C000792099 /* Code */ = {
 			isa = PBXGroup;
 			children = (
-				AD0CCEC317E518C000792099 /* CRAppDelegate.h */,
-				AD0CCEC417E518C000792099 /* CRAppDelegate.m */,
+				EA0D366317EDA3240022E216 /* Configurations */,
 			);
 			path = Code;
+			sourceTree = "<group>";
+		};
+		EA0D366317EDA3240022E216 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				EA0D366417EDA3240022E216 /* Debug */,
+				EA0D366517EDA3240022E216 /* Release */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		EA0D366417EDA3240022E216 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				EA0D366D17EDA42B0022E216 /* DIConfigurations */,
+				EA0D366917EDA3AA0022E216 /* AppDelegateConfiguration */,
+				EA0D366617EDA3340022E216 /* CRDebugConfiguration.h */,
+				EA0D366717EDA3340022E216 /* CRDebugConfiguration.m */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		EA0D366517EDA3240022E216 /* Release */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Release;
+			sourceTree = "<group>";
+		};
+		EA0D366917EDA3AA0022E216 /* AppDelegateConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				EA0D366A17EDA3B60022E216 /* CRAppearanceConfiguration.h */,
+				EA0D366B17EDA3B60022E216 /* CRAppearanceConfiguration.m */,
+				EA0D367417EDA5680022E216 /* CRAPSNConfiguration.h */,
+				EA0D367517EDA5680022E216 /* CRAPSNConfiguration.m */,
+			);
+			path = AppDelegateConfiguration;
+			sourceTree = "<group>";
+		};
+		EA0D366D17EDA42B0022E216 /* DIConfigurations */ = {
+			isa = PBXGroup;
+			children = (
+				EA0D366E17EDA4450022E216 /* CRDIAppearanceConfigurationModule.h */,
+				EA0D366F17EDA4450022E216 /* CRDIAppearanceConfigurationModule.m */,
+				EA0D367117EDA4EC0022E216 /* CRDIAPSNConfigurationModule.h */,
+				EA0D367217EDA4EC0022E216 /* CRDIAPSNConfigurationModule.m */,
+			);
+			path = DIConfigurations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,8 +349,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0D366C17EDA3B60022E216 /* CRAppearanceConfiguration.m in Sources */,
+				EA0D367617EDA5680022E216 /* CRAPSNConfiguration.m in Sources */,
+				EA0D367317EDA4EC0022E216 /* CRDIAPSNConfigurationModule.m in Sources */,
 				AD0CCE6917E506DB00792099 /* main.m in Sources */,
-				AD0CCEC517E518C000792099 /* CRAppDelegate.m in Sources */,
+				EA0D367017EDA4450022E216 /* CRDIAppearanceConfigurationModule.m in Sources */,
+				EA0D366817EDA3340022E216 /* CRDebugConfiguration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
