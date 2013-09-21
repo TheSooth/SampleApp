@@ -1,5 +1,5 @@
 //
-//  CRDebugConfiguration.h
+//  CRTransactionConfiguration.h
 //  SampleApp
 //
 //  Created by TheSooth on 9/21/13.
@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CRBaseTargetConfiguration.h>
+#import <CRTransactionHandlers.h>
 
-@interface CRDebugConfiguration : CRBaseTargetConfiguration
+@interface CRTransactionConfiguration : NSObject <CRTransactionHandlers>
 
 @end

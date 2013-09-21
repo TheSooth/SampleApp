@@ -24,6 +24,9 @@
 		EA0D367017EDA4450022E216 /* CRDIAppearanceConfigurationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0D366F17EDA4450022E216 /* CRDIAppearanceConfigurationModule.m */; };
 		EA0D367317EDA4EC0022E216 /* CRDIAPSNConfigurationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0D367217EDA4EC0022E216 /* CRDIAPSNConfigurationModule.m */; };
 		EA0D367617EDA5680022E216 /* CRAPSNConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0D367517EDA5680022E216 /* CRAPSNConfiguration.m */; };
+		EA0D36A317EDE6AB0022E216 /* CRSARootTranscation.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0D36A217EDE6AB0022E216 /* CRSARootTranscation.m */; };
+		EA0D36A817EDEEF40022E216 /* CRTransactionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0D36A717EDEEF40022E216 /* CRTransactionConfiguration.m */; };
+		EA0D36AB17EDF3100022E216 /* CRDITransactionConfigurationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0D36AA17EDF3100022E216 /* CRDITransactionConfigurationModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,12 @@
 		EA0D367217EDA4EC0022E216 /* CRDIAPSNConfigurationModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRDIAPSNConfigurationModule.m; sourceTree = "<group>"; };
 		EA0D367417EDA5680022E216 /* CRAPSNConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRAPSNConfiguration.h; sourceTree = "<group>"; };
 		EA0D367517EDA5680022E216 /* CRAPSNConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRAPSNConfiguration.m; sourceTree = "<group>"; };
+		EA0D36A117EDE6AB0022E216 /* CRSARootTranscation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRSARootTranscation.h; sourceTree = "<group>"; };
+		EA0D36A217EDE6AB0022E216 /* CRSARootTranscation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRSARootTranscation.m; sourceTree = "<group>"; };
+		EA0D36A617EDEEF40022E216 /* CRTransactionConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRTransactionConfiguration.h; sourceTree = "<group>"; };
+		EA0D36A717EDEEF40022E216 /* CRTransactionConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRTransactionConfiguration.m; sourceTree = "<group>"; };
+		EA0D36A917EDF3100022E216 /* CRDITransactionConfigurationModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRDITransactionConfigurationModule.h; sourceTree = "<group>"; };
+		EA0D36AA17EDF3100022E216 /* CRDITransactionConfigurationModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRDITransactionConfigurationModule.m; sourceTree = "<group>"; };
 		ED656CF1ACE74EEA9B13606B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -164,6 +173,7 @@
 		AD0CCEC217E518C000792099 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				EA0D36A017EDE69C0022E216 /* Transactions */,
 				EA0D366317EDA3240022E216 /* Configurations */,
 			);
 			path = Code;
@@ -181,6 +191,7 @@
 		EA0D366417EDA3240022E216 /* Debug */ = {
 			isa = PBXGroup;
 			children = (
+				EA0D36A517EDEEE80022E216 /* TransactionConfiguration */,
 				EA0D366D17EDA42B0022E216 /* DIConfigurations */,
 				EA0D366917EDA3AA0022E216 /* AppDelegateConfiguration */,
 				EA0D366617EDA3340022E216 /* CRDebugConfiguration.h */,
@@ -214,8 +225,28 @@
 				EA0D366F17EDA4450022E216 /* CRDIAppearanceConfigurationModule.m */,
 				EA0D367117EDA4EC0022E216 /* CRDIAPSNConfigurationModule.h */,
 				EA0D367217EDA4EC0022E216 /* CRDIAPSNConfigurationModule.m */,
+				EA0D36A917EDF3100022E216 /* CRDITransactionConfigurationModule.h */,
+				EA0D36AA17EDF3100022E216 /* CRDITransactionConfigurationModule.m */,
 			);
 			path = DIConfigurations;
+			sourceTree = "<group>";
+		};
+		EA0D36A017EDE69C0022E216 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				EA0D36A117EDE6AB0022E216 /* CRSARootTranscation.h */,
+				EA0D36A217EDE6AB0022E216 /* CRSARootTranscation.m */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		EA0D36A517EDEEE80022E216 /* TransactionConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				EA0D36A617EDEEF40022E216 /* CRTransactionConfiguration.h */,
+				EA0D36A717EDEEF40022E216 /* CRTransactionConfiguration.m */,
+			);
+			path = TransactionConfiguration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,6 +381,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA0D366C17EDA3B60022E216 /* CRAppearanceConfiguration.m in Sources */,
+				EA0D36A317EDE6AB0022E216 /* CRSARootTranscation.m in Sources */,
+				EA0D36AB17EDF3100022E216 /* CRDITransactionConfigurationModule.m in Sources */,
+				EA0D36A817EDEEF40022E216 /* CRTransactionConfiguration.m in Sources */,
 				EA0D367617EDA5680022E216 /* CRAPSNConfiguration.m in Sources */,
 				EA0D367317EDA4EC0022E216 /* CRDIAPSNConfigurationModule.m in Sources */,
 				AD0CCE6917E506DB00792099 /* main.m in Sources */,

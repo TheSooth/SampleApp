@@ -1,5 +1,5 @@
 //
-//  CRDebugConfiguration.h
+//  CRSARootTranscation.h
 //  SampleApp
 //
 //  Created by TheSooth on 9/21/13.
@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CRBaseTargetConfiguration.h>
+#import <CRRootTransaction.h>
+#import <CRBaseTransaction.h>
 
-@interface CRDebugConfiguration : CRBaseTargetConfiguration
+@interface CRSARootTranscation : CRBaseTransaction <CRRootTransaction>
 
 @end

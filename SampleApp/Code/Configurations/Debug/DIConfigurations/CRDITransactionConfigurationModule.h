@@ -1,5 +1,5 @@
 //
-//  CRDebugConfiguration.h
+//  CRTransactionConfigurationModule.h
 //  SampleApp
 //
 //  Created by TheSooth on 9/21/13.
@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CRBaseTargetConfiguration.h>
+#import <CRDIConfiguration.h>
 
-@interface CRDebugConfiguration : CRBaseTargetConfiguration
+@interface CRDITransactionConfigurationModule : CRDIConfiguration
 
 @end
